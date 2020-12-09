@@ -1,0 +1,562 @@
+body {
+    margin: 0px 5px 0px;
+}
+.header {
+    height: 83px;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    top: 0;
+
+}
+.anjoyi {
+    height: 83px;
+    width: 268px;
+    border-bottom: 1px solid #797979;
+    border-right: 1px solid #797979;
+}
+.pandalogo {
+    display: flex;
+    margin-left: 22px;
+    margin-top: 13px;
+}
+#panda {
+    width: 60px;
+}
+.logo {
+    color: #333333;
+    font-family: 'Forte';
+    font-style: italic;
+    font-weight: 700;
+    src: url('http://www.fontsaddict.com/fontface/forte.ttf');
+    font-size: 45px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.mylocation {
+    height: 83px;
+    width: 949px;
+    border-bottom: 1px solid #797979;
+    border-right: 1px solid #797979;
+}
+.locationaddress {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 22px;
+}
+#location {
+    width: 40px;
+}
+.address {
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+.signin {
+    height: 83px;
+    width: 148px;
+    border-bottom: 1px solid #797979;
+    border-right: 1px solid #797979;
+}
+.humanlogin {
+    display: flex;
+    margin-left: 21px;
+    margin-top: 22px;
+}
+#human {
+    width: 40px;
+}
+.login {
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 9px;
+    margin-left: 4px;
+}
+.shoppingcart {
+    height: 83px;
+    width: 145px;
+    border-bottom: 1px solid #797979;
+    
+}
+.shopcart {
+    display: flex;
+    margin-left: 29px;
+    margin-top: 22px;
+}
+#shop {
+    width: 40px;
+}
+#num3 {
+    width: 15px;
+    height: 16px;
+}
+.cart {
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 13px;
+    margin-left: 4px;
+    text-decoration: none;
+    color: #333333;
+}
+.content {
+    height: 2422px;
+    border-bottom: 1px solid #797979;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(236, 236, 236, 1) 52%, rgba(236, 236, 236, 1) 100%);
+}
+.searchfilters {
+    display: flex;
+    margin-top: 109px;
+    margin-left: 38px;
+    width: 717px;
+    height: 43px;
+}
+.search {
+    width: 555px;
+    height: 43px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px;
+    background-color: white;
+}
+.search12 {
+    display: flex;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+#search1 {
+    width: 35px;
+}
+.search2 {
+    font-family: 'Microsoft YaHei';
+    color: #919399;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.filters {
+    width: 136px;
+    height: 43px;
+    margin-left: 26px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px;
+    background-color: white;
+}
+.filters12 {
+    display: flex;
+    margin-left: 24px;
+    margin-top: 6px;
+}
+#filters1 {
+    width: 27px;
+    height: 31px;
+}
+.filters2 {
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.categories {
+    display: flex;
+    width: 1430px;
+    height: 121px;
+    margin-left: 38px;
+    margin-top: 46px;
+}
+.hamburgers {
+    width: 164px;
+    height: 121px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349019607843137);
+    background-color: white;
+}
+#ham1 {
+    width: 70px;
+    margin-left: 47px;
+    margin-top: 8px;
+}
+.ham2 {
+    margin-left: 12px;
+}
+.pizza {
+    width: 164px;
+    height: 121px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349019607843137);
+    margin-left: 46px;
+    background-color: #E3E1E1;
+}
+#piz1 {
+    width: 70px;
+    margin-left: 47px;
+    margin-top: 8px;
+}
+.piz2 {
+    margin-left: 53px;
+}
+.sushi {
+    width: 164px;
+    height: 121px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349019607843137);
+    background-color: white;
+    margin-left: 45px;
+}
+#sush1 {
+    width: 70px;
+    margin-left: 47px;
+    margin-top: 9px;
+}
+.sush2 {
+    margin-left: 53px;
+}
+.meat {
+    width: 164px;
+    height: 121px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349019607843137);
+    background-color: white;
+    margin-left: 46px;
+}
+#meat1 {
+    width: 70px;
+    margin-left: 47px;
+    margin-top: 9px;
+}
+.meat2 {
+    margin-left: 53px;
+}
+.noodles {
+    width: 164px;
+    height: 121px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349019607843137);
+    background-color: white;
+    margin-left: 45px;
+}
+#nood1 {
+    width: 70px;
+    margin-left: 47px;
+    margin-top: 9px;
+}
+.nood2 {
+    margin-left: 37px;
+}
+.healthyfood {
+    width: 164px;
+    height: 121px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349019607843137);
+    background-color: white;
+    margin-left: 46px;
+}
+#vege1 {
+    width: 70px;
+    margin-left: 43px;
+    margin-top: 9px;
+}
+.vege2 {
+    margin-left: 8px;
+}
+.more {
+    width: 121px;
+    height: 121px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349019607843137);
+    background-color: white;
+    margin-left: 97px;
+}
+#more1 {
+    width: 70px;
+    height: 65px;
+    margin-left: 26px;
+    margin-top: 15px;
+}
+.more2 {
+    margin-left: 31px;
+}
+.categorynames {
+    font-family: 'Microsoft YaHei';
+    font-size: 22px;
+    font-weight: 700;
+    color: #333333;
+}
+.firstrow {
+    display: flex;
+    margin-top: 71px;
+}
+.one {
+    width: 440px;
+    height: 450px;
+    border-radius: 10px;
+    margin-left: 38px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.349019607843137);
+    background-color: white;
+}
+.two {
+    width: 440px;
+    height: 450px;
+    border-radius: 10px;
+    margin-left: 55px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.349019607843137);
+    background-color: white;
+}
+.three {
+    width: 440px;
+    height: 450px;
+    border-radius: 10px;
+    margin-left: 54px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.349019607843137);
+    background-color: white;
+}
+.img {
+    height: 330px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.pizzaname {
+    font-family: 'Forte';
+    font-weight: 700;
+    color: #333333;
+    src: url('http://www.fontsaddict.com/fontface/forte.ttf');
+    font-size: 32px;
+    margin-left: 11px;
+}
+.timepricerating {
+    display: flex;
+    height: 36px;
+    margin-top: 15px;
+}
+.time {
+    background-color: #F6F6F6;
+    width: 140px;
+    margin-left: 13px;
+    border-radius: 30px;
+}
+.deliveryiconminutes {
+    display: flex;
+}
+.deliveryicon {
+    width: 20px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.minutes {
+    font-size: 16px;
+    color: #F38F9F;
+}
+.price {
+    background-color: #F6F6F6;
+    width: 82px;
+    margin-left: 12px;
+    border-radius: 30px;
+}
+.euroiconamount {
+    display: flex;
+}
+.euroicon {
+    width: 20px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.amount {
+    font-size: 16px;
+    color: #54545A;
+}
+.rating {
+    background-color: #F6F6F6;
+    width: 82px;
+    margin-left: 12px;
+    border-radius: 30px;
+}
+.stariconpoints {
+    display: flex;
+}
+.staricon {
+    width: 22px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.points {
+    font-size: 16px;
+    color: #54545A;
+}
+.font {
+    font-family: 'Microsoft YaHei';
+    margin-left: 5px;
+    margin-top: 7px;
+}
+.secondrow {
+    display: flex;
+    margin-top: 55px;
+}
+.thirdrow {
+    display: flex;
+    margin-top: 55px;
+}
+.fourthrow {
+    display: flex;
+    margin-top: 55px;
+}
+.showmorebutton {
+    background-color: #3F3F45;
+    width: 572px;
+    height: 79px;
+    line-height: 79px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.349019607843137);
+    color: white;
+    margin-left: 472px;
+    margin-top: 52px;
+    font-family: 'Microsoft YaHei';
+    font-weight: 700;
+    font-size: 32px;
+}
+.knopkashowmore:hover { 
+    background: #303035;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.349019607843137); 
+}
+.knopkashowmore:active { 
+    background: #222225; 
+}
+.knopkapizza:hover { 
+    background:  rgb(251, 251, 251);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349019607843137); 
+}
+.footer {
+    height: 452px;
+    border-bottom: 1px solid #797979;
+}
+.footerbeginning {
+    margin-top: 46px;
+    margin-left: 21px;
+}
+.footerheaders {
+    display: flex;
+    margin-top: 46px;
+}
+.footerheader {
+    font-family: 'Microsoft YaHei';
+    font-weight: 700;
+    font-size: 18px;
+    color: #333333;
+}
+.downloadtheapp {
+    margin-left: 42px;
+}
+.joinus {
+    margin-left: 350px;
+}
+.joinuscontent {
+    margin-left: 283px;
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    color: #333333;
+}
+.helpcenter {
+    margin-left: 350px;
+}
+.helpcentercontent {
+    margin-left: 274px;
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    color: #333333;
+}
+.contenttext {
+    margin-top: 12px;
+}
+.downloadbuttons {
+    margin-top: 32px;
+    margin-left: 42px;
+    display: flex;
+}
+.apple {
+    background-color: black;
+    width: 233px;
+    height: 68px;
+    border-radius: 10px;
+}
+.appleicontext {
+    display: flex;
+}
+#appleicon {
+    width: 40px;
+    height: 40px;
+    margin-top: 14px;
+    margin-left: 11px;
+}
+.text {
+    color: white;
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 700;
+    margin-top: 11px;
+}
+.big {
+    font-size: 23px;
+}
+.android {
+    background-color: black;
+    margin-top: 15px;
+    width: 233px;
+    height: 68px;
+    border-radius: 10px;
+}
+.androidicontext {
+    display: flex;
+}
+#androidicon {
+    width: 40px;
+    height: 40px;
+    margin-top: 14px;
+    margin-left: 11px;
+}
+.contact {
+    margin-left: 1262px;
+    margin-top: 25px;
+}
+.contactbuttons {
+    display: flex;
+    margin-top: 25px;
+}
+.subbuttons {
+    width: 40px;
+}
+.insta {
+    margin-left: 16px;
+}
+.twitter {
+    margin-left: 16px;
+}
+.wechat {
+    margin-left: 16px;
+}
+.copyright {
+    height: 35px;
+}
+.copyrightcontent {
+    display: flex;
+    margin-left: 42px;
+    margin-top: 10px;
+}
+#copyrighticon {
+    width: 14px;
+    margin: 0px 6px 0px;
+}
+.copyrighttext {
+    color: #aaaaaa;
+    font-size: 14px;
+    font-family: 'Arial';
+}
+.knopkadownload:hover { 
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.349019607843137);
+}
+.knopka:hover { 
+    background: rgb(241, 241, 241);
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.349019607843137);
+}

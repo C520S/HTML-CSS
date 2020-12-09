@@ -1,0 +1,450 @@
+body {
+    margin: 0px 5px 0px;
+}
+.header {
+    height: 83px;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    top: 0;
+}
+.anjoyi {
+    height: 83px;
+    width: 268px;
+    border-bottom: 1px solid #797979;
+    border-right: 1px solid #797979;
+}
+.pandalogo {
+    display: flex;
+    margin-left: 22px;
+    margin-top: 13px;
+}
+#panda {
+    width: 60px;
+}
+.logo {
+    color: #333333;
+    font-family: 'Forte';
+    font-style: italic;
+    font-weight: 700;
+    src: url('http://www.fontsaddict.com/fontface/forte.ttf');
+    font-size: 45px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.mylocation {
+    height: 83px;
+    width: 949px;
+    border-bottom: 1px solid #797979;
+    border-right: 1px solid #797979;
+}
+.locationaddress {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 22px;
+}
+#location {
+    width: 40px;
+}
+.address {
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+.signin {
+    height: 83px;
+    width: 148px;
+    border-bottom: 1px solid #797979;
+    border-right: 1px solid #797979;
+}
+.humanlogin {
+    display: flex;
+    margin-left: 21px;
+    margin-top: 22px;
+}
+#human {
+    width: 40px;
+}
+.login {
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 9px;
+    margin-left: 4px;
+}
+.shoppingcart {
+    height: 83px;
+    width: 145px;
+    border-bottom: 1px solid #797979;
+}
+.shopcart {
+    display: flex;
+    margin-left: 29px;
+    margin-top: 22px;
+}
+#shop {
+    width: 40px;
+}
+#num3 {
+    width: 15px;
+    height: 16px;
+}
+.cart {
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 13px;
+    margin-left: 4px;
+    text-decoration: none;
+    color: #333333;
+}
+.content {
+    height: 1112px;
+    border-bottom: 1px solid #797979;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(236, 236, 236, 1) 52%, rgba(236, 236, 236, 1) 100%);
+}
+.backbutton {
+    margin-left: 38px;
+    margin-top: 106px;
+    width: 113px;
+    height: 42px;
+    background-color: white;
+    border: 1px solid #797979;
+    border-radius: 30px;
+}
+.backbuttoncontent {
+    display: flex;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+#backicon {
+    width: 20px;
+}
+.backtext {
+    font-family: 'Microsoft YaHei ', 'Microsoft YaHei ', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 7px;
+}
+.backtohp {
+    text-decoration: none;
+    color: #333333;
+}
+.yourorders {
+    border-bottom: 1px solid #797979;
+    margin-left: 38px;
+    margin-top: 33px;
+    height: 89px;
+    width: 1434px;
+}
+.yourorderstext {
+    font-family: 'Microsoft YaHei';
+    font-size: 52px;
+    font-weight: 700;
+    width: 400px;
+    margin-top: -20px;
+    color: #333333;
+}
+.orderbox {
+    width: 1434px;
+    height: 231px;
+    margin-left: 38px;
+    margin-top: 39px;
+    border-radius: 30px;
+    border: 1px solid rgb(121, 121, 121);
+    background-color: rgb(252, 252, 252);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px;
+}
+.orderheader {
+    margin-top: 5px;
+    width: 1374px;
+    margin-left: 41px;
+    display: flex;
+}
+.orderheaderfont {
+    font-family: 'Microsoft YaHei';
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+}
+.quantity {
+    margin-left: 464px;
+}
+.price {
+    margin-left: 113px;
+}
+.shippingrates {
+    margin-left: 113px;
+}
+.total {
+    margin-left: 103px;
+}
+.orderinfo {
+    width: 1374px;
+    height: 113px;
+    margin-left: 41px;
+    margin-top: 16px;
+    display: flex;
+}
+.pizzapicture {
+    width: 166px;
+    height: 113px;
+    border: 1px solid #797979;
+}
+.orderinfocontent {
+    display: flex;
+    width: 1208px;
+    height: 50px;
+    margin-top: 11px;
+}
+.pizzaname {
+    font-family: 'Forte';
+    font-weight: 700;
+    src: url('http://www.fontsaddict.com/fontface/forte.ttf');
+    font-size: 27px;
+    margin-left: 11px;
+    color: #333333;
+}
+.quantitybutton {
+    display: flex;
+    margin-left: 160px;
+}
+.minus {
+    margin-top: 5px;
+    width: 21px;
+}
+.one {
+    background-color: white;
+    border: 1px solid #797979;
+    width: 54px;
+    height: 31px;
+    margin: 0px 5px 0px;
+}
+.onenumber {
+    margin-left: 21px;
+    margin-top: 2px;
+}
+.plus {
+    margin-top: 5px;
+    width: 21px;
+}
+.priceamounteuroicon {
+    display: flex;
+    margin-left: 136px;
+    margin-top: 1px;
+}
+.pricefont {
+    font-family: 'Microsoft YaHei';
+    font-size: 20px;
+}
+.euroicon {
+    width: 15px;
+    margin-top: 6px;
+    margin-left: 2px;
+}
+.shippingratesamounteurocoin {
+    display: flex;
+    margin-left: 206px;
+    margin-top: 1px;
+}
+.totalamounteurocoin {
+    display: flex;
+    margin-left: 192px;
+    margin-top: 1px;
+}
+.garbage {
+    width: 1374px;
+    height: 41px;
+    margin-left: 41px;
+}
+.garbageicon {
+    width: 26px;
+    margin-left: 1348px;
+    margin-top: 15px;
+}
+.quantitybuttonpioppo {
+    display: flex;
+    margin-left: 131px;
+}
+.totalbuybutton {
+    width: 676px;
+    height: 93px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    margin-left: 797px;
+    margin-top: 32px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.349019607843137);
+}
+.totalbuybuttoncontent {
+    display: flex;
+    padding-top: 17px;
+    margin-left: 20px;
+}
+.totalpricetext {
+    font-family: 'Microsoft YaHei';
+    font-size: 38px;
+    font-weight: 700;
+}
+.totalpriceamountpapaeuroicon {
+    display: flex;
+    margin-left: 20px;
+}
+.totalpriceamount {
+    font-family: 'Microsoft YaHei';
+    font-size: 38px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+#papaeuroicon {
+    width: 24px;
+    margin-top: 16px;
+    margin-left: 3px;
+}
+.redbutton {
+    width: 225px;
+    height: 60px;
+    background-color: #FF0000;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+.redbuttoncontent {
+    font-size: 40px;
+    font-family: 'Forte';
+    src: url('http://www.fontsaddict.com/fontface/forte.ttf');
+    margin-left: 75px;
+}
+.knopka:hover { 
+    background: rgb(241, 241, 241);
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.349019607843137);
+}
+.knopkadownload:hover { 
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.349019607843137);
+}
+.footer {
+    height: 452px;
+    border-bottom: 1px solid #797979;
+}
+.footerbeginning {
+    margin-top: 46px;
+    margin-left: 21px;
+}
+.footerheaders {
+    display: flex;
+    margin-top: 46px;
+}
+.footerheader {
+    font-family: 'Microsoft YaHei';
+    font-weight: 700;
+    font-size: 18px;
+    color: #333333;
+}
+.downloadtheapp {
+    margin-left: 42px;
+}
+.joinus {
+    margin-left: 350px;
+}
+.joinuscontent {
+    margin-left: 283px;
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    color: #333333;
+}
+.helpcenter {
+    margin-left: 350px;
+}
+.helpcentercontent {
+    margin-left: 274px;
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    color: #333333;
+}
+.contenttext {
+    margin-top: 12px;
+}
+.downloadbuttons {
+    margin-top: 32px;
+    margin-left: 42px;
+    display: flex;
+}
+.apple {
+    background-color: black;
+    width: 233px;
+    height: 68px;
+    border-radius: 10px;
+}
+.appleicontext {
+    display: flex;
+}
+#appleicon {
+    width: 40px;
+    height: 40px;
+    margin-top: 14px;
+    margin-left: 11px;
+}
+.text {
+    color: white;
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 700;
+    margin-top: 11px;
+}
+.big {
+    font-size: 23px;
+}
+.android {
+    background-color: black;
+    margin-top: 15px;
+    width: 233px;
+    height: 68px;
+    border-radius: 10px;
+}
+.androidicontext {
+    display: flex;
+}
+#androidicon {
+    width: 40px;
+    height: 40px;
+    margin-top: 14px;
+    margin-left: 11px;
+}
+.contact {
+    margin-left: 1262px;
+    margin-top: 25px;
+}
+.contactbuttons {
+    display: flex;
+    margin-top: 25px;
+}
+.subbuttons {
+    width: 40px;
+}
+.insta {
+    margin-left: 16px;
+}
+.twitter {
+    margin-left: 16px;
+}
+.wechat {
+    margin-left: 16px;
+}
+.copyright {
+    height: 35px;
+}
+.copyrightcontent {
+    display: flex;
+    margin-left: 42px;
+    margin-top: 10px;
+}
+#copyrighticon {
+    width: 14px;
+    margin: 0px 6px 0px;
+}
+.copyrighttext {
+    color: #aaaaaa;
+    font-size: 14px;
+    font-family: 'Arial';
+}

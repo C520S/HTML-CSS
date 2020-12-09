@@ -1,0 +1,757 @@
+body {
+    margin: 0px 5px 0px;
+    width: 1510px;
+
+}
+
+
+.header {
+    height: 83px;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    top: 0;
+
+}
+
+#wrapper {
+    margin-top: 103px;
+}
+
+.content {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(236, 236, 236, 1) 51%, rgba(236, 236, 236, 1) 100%);
+}
+
+.anjoyi {
+    height: 83px;
+    width: 268px;
+    border-bottom: 1px solid #797979;
+    border-right: 1px solid #797979;
+}
+
+.pandalogo {
+    display: flex;
+    margin-left: 22px;
+    margin-top: 13px;
+}
+
+#panda {
+    width: 60px;
+}
+
+.logo {
+    color: #333333;
+    font-family: 'Forte';
+    font-style: italic;
+    font-weight: 700;
+    src: url('http://www.fontsaddict.com/fontface/forte.ttf');
+    font-size: 45px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.mylocation {
+    height: 83px;
+    width: 949px;
+    border-bottom: 1px solid #797979;
+    border-right: 1px solid #797979;
+}
+
+.locationaddress {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 22px;
+}
+
+#location {
+    width: 40px;
+}
+
+.address {
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+.signin {
+    height: 83px;
+    width: 148px;
+    border-bottom: 1px solid #797979;
+    border-right: 1px solid #797979;
+}
+
+.humanlogin {
+    display: flex;
+    margin-left: 21px;
+    margin-top: 22px;
+}
+
+#human {
+    width: 40px;
+}
+
+.login {
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 9px;
+    margin-left: 4px;
+}
+
+.shoppingcart {
+    height: 83px;
+    width: 145px;
+    border-bottom: 1px solid #797979;
+
+}
+
+.shopcart {
+    display: flex;
+    margin-left: 29px;
+    margin-top: 22px;
+}
+
+#shop {
+    width: 40px;
+}
+
+#num3 {
+    width: 15px;
+    height: 16px;
+}
+
+.cart {
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 13px;
+    margin-left: 4px;
+    text-decoration: none;
+    color: #333333;
+}
+
+.product {
+    height: 872px;
+    width: 100%;
+    border-bottom: 1px solid #797979;
+
+}
+
+.backbutton {
+    margin-left: 38px;
+    margin-top: 106px;
+    width: 113px;
+    height: 42px;
+    background-color: white;
+    border: 1px solid #797979;
+    border-radius: 30px;
+}
+.backbuttoncontent {
+    display: flex;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+#backicon {
+    width: 20px;
+}
+.backtext {
+    font-family: 'Microsoft YaHei ', 'Microsoft YaHei ', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 7px;
+}
+.backtohp {
+    text-decoration: none;
+    color: #333333;
+}
+.pizza {
+    height: 824px;
+    width: 100%;
+    margin-top: -34px;
+}
+
+.pizzabox1 {
+    width: 100%;
+    height: 619px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pizzaphoto {
+    height: 450px;
+    width: 600px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, .3);
+    margin-left: 36px;
+}
+
+.pizzainfo {
+    height: 450px;
+    width: 978px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 46px;
+}
+
+.pizzainfo .papa {
+    font-family: 'Forte';
+    font-size: 52px;
+    width: 545px;
+    height: 71px;
+    font-weight: 700;
+    margin: 0px 0px 0px 35px;
+
+}
+
+.knopkapizza:hover { 
+    background:  rgb(251, 251, 251);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349019607843137); 
+}
+
+.price {
+    width: 545px;
+    height: 73px;
+    display: flex;
+    background-color: #000000;
+    align-items: center;
+    border-radius: 30px;
+
+}
+
+.price p:nth-child(1) {
+    font-family: "Microsoft YaHei";
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-top: 23px;
+    margin-left: 18px;
+    font-weight: 700;
+
+}
+
+.price p:nth-child(2) {
+    font-family: "Microsoft Yahei";
+    color: #FFFFFF;
+    font-size: 36px;
+    padding-left: 325px;
+    font-weight: 700;
+
+}
+
+.price .papaeuro {
+    width: 24px;
+    height: 24px;
+    margin-top: 7px;
+    margin-right: 30px;
+}
+
+.rates {
+    width: 545px;
+    height: 73px;
+    display: flex;
+    background-color: #000000;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 10px;
+
+}
+
+.rates p:nth-child(1) {
+    font-family: "Microsoft YaHei";
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-top: 23px;
+    margin-left: 18px;
+    white-space: nowrap;
+    font-weight: 700;
+
+}
+
+.rates p:nth-child(2) {
+    font-family: "Microsoft Yahei";
+    color: #FFFFFF;
+    font-size: 36px;
+    padding-left: 185px;
+    font-weight: 700;
+
+}
+
+.rates .papaeuro {
+    width: 24px;
+    height: 24px;
+    margin-top: 7px;
+    margin-right: 30px;
+}
+
+.quantity {
+    width: 685px;
+    height: 82px;
+    display: flex;
+    margin-top: 27px;
+
+}
+
+.quantity p {
+    font-family: "Microsoft Yahei";
+    color: #FFFFFF;
+    font-size: 30px;
+    width: 181px;
+    height: 64px;
+    background-color: #000000;
+    border-radius: 30px;
+    line-height: 64px;
+    text-align: center;
+    margin: 0px;
+    font-weight: 700;
+}
+
+.quantity .num1000 {
+    width: 88px;
+    height: 48px;
+    border-radius: 5px;
+    font-weight: 700px;
+    margin-left: 27px;
+    margin-top: 5px;
+}
+
+.buycart {
+    width: 100%;
+    height: 93px;
+    display: flex;
+    margin-top: 37px;
+}
+
+.buycart a:nth-child(1) {
+    width: 361px;
+    height: 74px;
+    font-family: 'Forte';
+    font-size: 40px;
+    color: #FFFFFF;
+    background-color: #FF0000;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, .3);
+    line-height: 74px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.buycart a:nth-child(2) {
+    width: 361px;
+    height: 74px;
+    font-family: 'Forte';
+    font-size: 40px;
+    color: #FF0000;
+    background-color: #FFEDED;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, .3);
+    line-height: 74px;
+    text-align: center;
+    margin-left: 18px;
+}
+
+.buycart a:nth-child(1):hover { 
+    background: #ec0000;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.349019607843137);
+}
+
+.buycart a:nth-child(2):hover { 
+    background: #e6d5d5;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.349019607843137);
+}
+
+.pizzadetails {
+    width: 100%;
+    height: 305px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -50px;
+
+}
+
+.product .pizzadetails .taste {
+    width: 913px;
+    height: 269px;
+    background-color: #D9DAD1;
+    border: 2px solid #797979;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .3);
+    border-radius: 30px;
+    margin-left: 36px;
+}
+
+.product .pizzadetails .taste .tasteinfo {
+    width: 815px;
+    height: 198px;
+    font-family: "Microsoft Yahei";
+    font-size: 37px;
+    color: #000000;
+    white-space: nowrap;
+    text-align: center;
+    margin: 32px 0px 0px 46px;
+
+
+}
+
+.product .pizzadetails .taste .tasteinfo p {
+    margin: 0px;
+}
+
+.product .pizzadetails .recipe {
+    width: 441px;
+    height: 269px;
+    background-color: #D9DAD1;
+    border: 2px solid #797979;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .3);
+    border-radius: 30px;
+    margin-right: 37px;
+
+
+}
+
+.product .pizzadetails .recipe .recipeinfo {
+    width: 358px;
+    height: 269px;
+    font-family: "Microsoft Yahei";
+    font-size: 26px;
+    color: #000000;
+    white-space: nowrap;
+    text-align: center;
+    margin: 15px 0px 0px 40px;
+
+
+
+}
+
+.product .pizzadetails .recipe .recipeinfo p {
+    margin: 0px;
+}
+
+.option {
+    height: 712px;
+    width: 100%;
+    border-bottom: 1px solid #797979;
+}
+
+.option h1 {
+    font-family: "Microsoft Yahei";
+    font-size: 32px;
+    color: #000000;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.firstrow {
+    display: flex;
+    margin-top: 32px;
+}
+
+.one {
+    width: 440px;
+    height: 450px;
+    border-radius: 10px;
+    margin-left: 38px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.349019607843137);
+    background-color: white;
+}
+
+.two {
+    width: 440px;
+    height: 450px;
+    border-radius: 10px;
+    margin-left: 55px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.349019607843137);
+    background-color: white;
+}
+
+.three {
+    width: 440px;
+    height: 450px;
+    border-radius: 10px;
+    margin-left: 54px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.349019607843137);
+    background-color: white;
+}
+
+.img {
+    height: 330px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.pizzaname {
+    font-family: 'Forte';
+    font-weight: 700;
+    color: #333333;
+    src: url('http://www.fontsaddict.com/fontface/forte.ttf');
+    font-size: 32px;
+    margin-left: 11px;
+}
+
+.timepricerating {
+    display: flex;
+    height: 36px;
+    margin-top: 15px;
+}
+
+.time {
+    background-color: #F6F6F6;
+    width: 140px;
+    margin-left: 13px;
+    border-radius: 30px;
+}
+
+.deliveryiconminutes {
+    display: flex;
+}
+
+.deliveryicon {
+    width: 20px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.minutes {
+    font-size: 16px;
+    color: #F38F9F;
+}
+
+.price2 {
+    background-color: #F6F6F6;
+    width: 82px;
+    margin-left: 12px;
+    border-radius: 30px;
+}
+
+.euroiconamount {
+    display: flex;
+}
+
+.euroicon {
+    width: 20px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.amount {
+    font-size: 16px;
+    color: #54545A;
+}
+
+.rating {
+    background-color: #F6F6F6;
+    width: 82px;
+    margin-left: 12px;
+    border-radius: 30px;
+}
+
+.stariconpoints {
+    display: flex;
+}
+
+.staricon {
+    width: 22px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.points {
+    font-size: 16px;
+    color: #54545A;
+}
+
+.font {
+    font-family: 'Microsoft YaHei';
+    margin-left: 5px;
+    margin-top: 7px;
+}
+
+.showmorebutton {
+    background-color: #3F3F45;
+    width: 572px;
+    height: 79px;
+    line-height: 79px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.349019607843137);
+    color: white;
+    margin-left: 472px;
+    margin-top: 52px;
+    font-family: 'Microsoft YaHei';
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.knopkashowmore:hover {
+    background: #303035;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.349019607843137);
+}
+
+.knopkashowmore:active {
+    background: #222225;
+}
+
+.footer {
+    height: 452px;
+    border-bottom: 1px solid #797979;
+
+
+}
+
+.footerbeginning {
+    margin-top: 46px;
+    margin-left: 21px;
+}
+
+.footerheaders {
+    display: flex;
+    margin-top: 46px;
+}
+
+.footerheader {
+    font-family: 'Microsoft YaHei';
+    font-weight: 700;
+    font-size: 18px;
+    color: #333333;
+}
+
+.downloadtheapp {
+    margin-left: 42px;
+}
+
+.joinus {
+    margin-left: 350px;
+}
+
+.joinuscontent {
+    margin-left: 283px;
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    color: #333333;
+}
+
+.helpcenter {
+    margin-left: 350px;
+}
+
+.helpcentercontent {
+    margin-left: 274px;
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    color: #333333;
+}
+
+.contenttext {
+    margin-top: 12px;
+}
+
+.downloadbuttons {
+    margin-top: 32px;
+    margin-left: 42px;
+    display: flex;
+}
+
+.apple {
+    background-color: black;
+    width: 233px;
+    height: 68px;
+    border-radius: 10px;
+}
+
+.appleicontext {
+    display: flex;
+}
+
+#appleicon {
+    width: 40px;
+    height: 40px;
+    margin-top: 14px;
+    margin-left: 11px;
+}
+
+.text {
+    color: white;
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 700;
+    margin-top: 11px;
+}
+
+.big {
+    font-size: 23px;
+}
+
+.android {
+    background-color: black;
+    margin-top: 15px;
+    width: 233px;
+    height: 68px;
+    border-radius: 10px;
+}
+
+.androidicontext {
+    display: flex;
+}
+
+#androidicon {
+    width: 40px;
+    height: 40px;
+    margin-top: 14px;
+    margin-left: 11px;
+}
+
+.contact {
+    margin-left: 1262px;
+    margin-top: 25px;
+}
+
+.contactbuttons {
+    display: flex;
+    margin-top: 25px;
+}
+
+.subbuttons {
+    width: 40px;
+}
+
+.insta {
+    margin-left: 16px;
+}
+
+.twitter {
+    margin-left: 16px;
+}
+
+.wechat {
+    margin-left: 16px;
+}
+
+.copyright {
+    height: 35px;
+}
+
+.copyrightcontent {
+    display: flex;
+    margin-left: 42px;
+    margin-top: 10px;
+}
+
+#copyrighticon {
+    width: 14px;
+    margin: 0px 6px 0px;
+}
+
+.copyrighttext {
+    color: #aaaaaa;
+    font-size: 14px;
+    font-family: 'Arial';
+}
+
+.knopkadownload:hover {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.349019607843137);
+}
+
+.knopka:hover {
+    background: rgb(241, 241, 241);
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.349019607843137);
+}
